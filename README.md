@@ -1,9 +1,10 @@
-# python_matrix-product
 # 前提条件
 - 行列サイズは1000,2000,3000
 - 行列の要素は全てランダムにする
 - 余裕が有れば疎行列のパターンでどうなるか
 
 # ファイルの内容
-## 1. list for
-## 2. numpy for
+## 1-list_roop.py
+for文とlist型で回すようにしている
+## 2-numpy_roop.py
+for文とnumpyで回すようにしている
