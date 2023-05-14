@@ -1,0 +1,144 @@
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
+Filename: numpy_size.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     4     36.9 MiB     36.9 MiB           1   @profile
+     5                                         def generate_list(dtype):
+     6     36.9 MiB      0.0 MiB           1       arr = np.zeros(50, dtype=dtype)
+     7     36.9 MiB      0.0 MiB           1       arr_list = arr.tolist()
+     8     36.9 MiB      0.0 MiB           1       del arr
+     9     36.9 MiB      0.0 MiB           1       return arr_list
+
+
