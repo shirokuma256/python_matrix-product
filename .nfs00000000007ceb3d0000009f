@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# 引数チェック
+if [ $# -lt 1 ]; then
+    echo "Usage: $0 <matrix size>"
+    exit 1
+fi
+
+# 変数定義
+M=10 # 実行回数
+N=$1 # 行列サイズ
+PYTHON="python3"
+SCRIPTS=("3-numpy_dot.py" "4-numpy_matmul.py" "5-numpy_@.py")
+OUTPUT_DIR="./result"
+
+# 出力ディレクトリ作成
+if [ ! -d "$OUTPUT_DIR" ]; then
+    mkdir "$OUTPUT_DIR"
+fi
+
+# ファイル名生成関数
+function get_filename() {
+    local script_name=$(basename "$1")
+    local output_name="${script_name%.*}"
+    echo "${output_name}_${N}.csv"
+}
+
+# 計算時間を測定する関数
+function measure_time() {
+    local script=$1
+    local output_file=$2
+
+    echo "Executing $script ..."
+    echo "No.,Elapsed Time,Average Time,Standard Deviation" > "$output_file"
+
+    for i in $(seq 1 $M); do
+        elapsed_time=$("$PYTHON" "$script" "$N" | grep "Elapsed time:" | awk '{print $3}')
+        echo "$i,$elapsed_time" >> "$output_file"
+    done
+
+    # 平均値と標準偏差を計算
+    awk -F',' '{
+        sum += $2;
+        sum_sq += $2*$2;
+    }
+    END {
+        avg = sum/NR;
+        std_dev = sqrt(sum_sq/NR - avg*avg);
+        printf("Average Time,%.5f\nStandard Deviation,%.5f\n", avg, std_dev);
+    }' "$output_file" >> "$output_file"
+}
+
+# 各スクリプトの計算時間を測定
+for script in "${SCRIPTS[@]}"; do
+    output_file="$OUTPUT_DIR/$(get_filename "$script")"
+    measure_time "$script" "$output_file"
+done

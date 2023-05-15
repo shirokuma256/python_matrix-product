@@ -4,7 +4,7 @@ import numpy as np
 from memory_profiler import profile
 import time
 
-@profile
+# @profile
 def matrix_multiplication():
 
     if len(sys.argv) < 2:
@@ -31,8 +31,9 @@ def matrix_multiplication():
     elapsed_time = end_time - start_time
 
     # 計算結果と計算時間を表示
-    print(f"Result matrix:\n{result_matrix}\n")
-    print(f"Elapsed time: {elapsed_time:.5f} seconds")
+    # print(f"Result matrix:\n{result_matrix}\n")
+    # print(f"Elapsed time: {elapsed_time:.5f} seconds")
+    print(elapsed_time)
 
 if __name__ == '__main__':
     matrix_multiplication()
